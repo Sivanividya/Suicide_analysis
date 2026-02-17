@@ -1,0 +1,120 @@
+# Suicide Prevention & Mental Health Analytics Dashboard
+
+## 📊 Project Overview
+
+Suicide is a major public health concern worldwide, influenced by social, economic, psychological, and demographic factors. Although large amounts of data are available from global and national sources, these datasets are often difficult to analyze due to their size and complexity.  
+
+This project aims to transform raw suicide statistics into meaningful and interactive insights using **Power BI**. The dashboard enables multi-level analysis, including global trends, India-specific patterns, state-level (Tamil Nadu) deep dives, age-based risk analysis, and summary insights to support data-driven decision-making.
+
+---
+
+## 🎯 Objectives
+
+- Analyze global and Indian suicide datasets using Power BI  
+- Clean and transform data using **Power Query (ETL)**  
+- Apply **Unpivot** and **Group By** operations for data reshaping and aggregation  
+- Create **DAX measures** for KPIs and calculations  
+- Build interactive dashboards with **drill-down, filters, and navigation buttons**  
+- Provide clear visual insights for better understanding of trends and risk factors  
+
+---
+
+## 🗂️ Datasets Used
+
+- WHO Global Suicide Statistics (Country, Year, Gender, Age, Rate, etc.)  
+- India Suicide Data (State-wise, Year-wise, Gender, Age Group, etc.)  
+- Additional datasets for age groups, causes, and regional analysis  
+
+(All datasets are used only for academic and analytical purposes.)
+
+---
+
+## 🖥️ Dashboard Pages
+
+1. **Home Page**
+   - Navigation using buttons and page navigation
+   - Acts as the entry point to all analysis pages
+
+2. **Global Trend Analysis**
+   - Global suicide trends over time
+   - Country-wise comparison
+   - Gender and age group distribution
+   - Map-based visualization
+
+3. **India Analysis**
+   - State-wise suicide distribution
+   - Year-wise trend in India
+   - Gender and age group analysis
+   - Top affected states
+
+4. **Aggregation & Drill-Down (Concept Page)**
+   - DAX-based KPIs (Total, YoY, Running Total, etc.)
+   - Grouped summaries
+   - Time-based drill-down analysis (Year → lower levels)
+
+5. **Tamil Nadu Analysis**
+   - Focused state-level deep dive
+   - Trend over years
+   - Gender and age group distribution
+   - State-specific insights
+
+6. **Age-Based Analysis**
+   - Comparison of suicide cases across age groups
+   - Identification of high-risk age categories
+   - Trend analysis by age group
+
+7. **Summary / Location & Causes**
+   - Combined view of key findings
+   - Cause/location-based analysis
+   - Advanced visuals for deeper insight
+
+---
+
+## 🛠️ Concepts & Features Used
+
+- **Power Query (ETL)**: Data cleaning, transformation, and preparation  
+- **Unpivot**: Converting wide tables to long format (age, gender, causes)  
+- **Group By**: Creating aggregated summaries (year-wise, state-wise, etc.)  
+- **DAX Measures**: Total Suicides, Average Rate, Rankings, Trends, KPIs  
+- **Drill-Down & Drill-Through**: Detailed analysis across levels  
+- **Slicers & Filters**: Interactive data exploration  
+- **Buttons & Page Navigation**: User-friendly navigation  
+- **Advanced Visuals**: Conditional formatting, decomposition tree, etc. (where applicable)  
+
+---
+
+## 🚀 How to Use the Project
+
+1. Open the `.pbix` file using **Power BI Desktop**  
+2. Use the **Home Page** buttons to navigate between different dashboards  
+3. Use **slicers and filters** to explore data by year, region, gender, and age group  
+4. Interact with visuals using **drill-down** and **drill-through** features  
+5. Analyze insights from global, national, state-level, and demographic perspectives  
+
+---
+
+## 📌 Tools & Technologies
+
+- Microsoft **Power BI Desktop**  
+- Power Query Editor  
+- DAX (Data Analysis Expressions)  
+- CSV / Excel datasets  
+
+---
+
+## 📄 Output Files
+
+- `.pbix` Power BI report file  
+- Exported **PDF / PPT** for presentation and documentation (optional)  
+
+---
+
+## 📚 Conclusion
+
+This project demonstrates how business intelligence tools like Power BI can be used to convert complex public health data into meaningful, interactive, and actionable insights. The dashboard supports multi-level analysis and helps highlight high-risk regions and groups, enabling better understanding and data-driven decision-making.
+
+---
+
+## 👨‍🎓 Academic Note
+
+This project is created for **educational and analytical purposes only** using publicly available data sources.
